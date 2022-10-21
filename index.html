@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <link rel="icon" href="./favicons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Main JavaScript (JS) -->
+    <script defer src="./js/script.js"></script> <!-- Lembrar de colocar o comando 'defer' para rodar o javascript antes do html da página // ou então adicionar a tag 'script no final do body da página index'-->
+    <title>Pokédex</title>
+</head>
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon_image">
+        <h1 class="pokemon_data">
+            <span class="pokemon_number"></span> - 
+            <span class="pokemon_name"></span>
+        </h1>
+
+        <form class="form">
+            <input type="search" class="input_search" placeholder="Nome ou ID do Pokemon" required />
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button> <!--  '&lt;' -> codigo que permite fazer o simbolo '<' sem apontar erro no vscode -->
+            <button class="button btn-next">Next &gt;</button> <!--  '&gt;' -> codigo que permite fazer o simbolo '>' sem apontar erro no vscode -->
+        </div>
+
+        <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+</body>
+</html>
